@@ -2,8 +2,13 @@
   margin-top: 30px;
 }
 
+.component-body-container{
+    background-image: linear-gradient(darkblue,lightblue);
+    color: gold;
+}
+
 .label-control {
-  color: #808080;
+  color: greenyellow;
   font-size: 1.15rem;
   margin-right: 15px;
 }
@@ -24,6 +29,7 @@
   font-size: 1rem;
   margin-right: 10px;
   margin-bottom: 20px;
+  background-image: linear-gradient(yellow,lightgreen);
 }
 
 .student-to-add-heading {
