@@ -4,9 +4,14 @@ import './Header.css';
 class Header extends Component {
     render () {
         return (
-            <div className='header'>
-                {this.props.heading}
-            </div>
+            <nav className='header'>
+                <h1>
+                    {this.props.instituteName}
+                </h1>
+                <p>
+                    {this.props.heading}
+                </p>
+            </nav>
         )
     }
 }
