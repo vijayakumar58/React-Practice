@@ -6,7 +6,7 @@ import Addstudent from './Addstudent';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './title/title.css'
-import StudentDetails from './StudentDetails';
+import StudentDetails from './studentDetails';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
