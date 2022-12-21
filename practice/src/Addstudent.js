@@ -38,7 +38,7 @@ export class Addstudent extends Component {
   }
   render() {
     console.log("Render called!!! - Add Student");
-    const { studentname, phone } = this.state;
+    const { studentname,parentname,address,dateofbirth,english,maths,Science,socialscience,totalmarks,percentage,selectyourgroup,emailid,mobilenumber} = this.state;
     return (
       <div>
         <Header heading="( HIGHER SECONDERY STUDENT ADMISSION PORT )" instituteName="OIP SCHOOL OF EDUCATION"></Header>
