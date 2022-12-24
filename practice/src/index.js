@@ -7,12 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './title/title.css'
 import StudentDetails from './studentDetails';
+import MainPage from './mainpage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <mainpage />
+    <StudentDetails />
   </React.StrictMode>
 );
 

@@ -1,11 +1,11 @@
 import React,{ Component } from 'react'
 import './mainpage.css';
 
-export class mainpage extends Component {
+export class MainPage extends Component {
     render (){
        return(
         <div className='mainpage-container'>
-            <div className='row'>
+            {/* <div className='row'>
                 <div className='col-sm-3'>
                     
                 </div>
@@ -16,10 +16,10 @@ export class mainpage extends Component {
                     
                 </div>
                 
-            </div>
+            </div> */}
         </div>
        )
     }
 }
 
-export default mainpage
+export default MainPage

@@ -31,7 +31,7 @@
   margin-right: 10px;
   margin-bottom: 20px;
   padding: 10px 20px;
-  background-image: linear-gradient(yellow,lightgreen);
+  background-image: linear-gradient(lightgreen,yellow);
 }
 
 .student-to-add-heading {
