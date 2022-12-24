@@ -49,15 +49,15 @@ export class Addstudent extends Component {
               <div className='row'>
                 <div className='col-md-6'>
                   <h4>Student Details</h4><br/>
-                <label htmlFor='studentname' className='label-control'>Student Name :</label>
+                <label htmlFor='studentname' className='label-control'>Student Name :</label><br />
                 <input id="studentname" type="text" className="input-control" name="studentname" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='parentname' className='label-control'>Parent Name :</label>
+                <label htmlFor='parentname' className='label-control'>Parent Name :</label><br />
                 <input id="parentname" type="text" className="input-control" name="parentname" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='address' className='label-control'>Address  : </label>
+                <label htmlFor='address' className='label-control'>Address  : </label><br />
                 <input id="address" type="text" className="input-control" name="address" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='date of birth' className='label-control'>Date Of Birth : </label>
+                <label htmlFor='date of birth' className='label-control'>Date Of Birth : </label><br />
                 <input id="date of birth" type="text" className="input-control" name="date of birth" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='select your group' className='label-control'>Select Your Group : </label>
+                <label htmlFor='select your group' className='label-control'>Select Your Group : </label><br />
                 <select name="select your group" id="select your group" className="input-control">
                    <option value="Maths Biology">Maths Biology</option>
                    <option value="Computer Maths">Computer Maths</option>
@@ -67,27 +67,27 @@ export class Addstudent extends Component {
                    <option value="Science">Science</option>
                    <option value="Vocational">Vocational</option>
                 </select><br /><br />
-                <label htmlFor='emai id' className='label-control'>Email Id : </label>
+                <label htmlFor='emai id' className='label-control'>Email Id : </label><br />
                 <input id="email id" type="text" className="input-control" name="email id" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='mobile number' className='label-control'>Mobile Number : </label>
-                <input id="mobile number" type="text" className="input-control" name="mobile number" onChange={this.inputChangeHandler}></input>
+                <label htmlFor='mobile number' className='label-control'>Mobile Number : </label><br />
+                <input id="mobile number" type="text" className="input-control" name="mobile number" onChange={this.inputChangeHandler}></input><br />
                 </div>
                 <div className='col-md-6'>
                  <h4>10th Subject Marks Out Of 100</h4><br/>
-                <label htmlFor='language' className='label-control'>Language : </label>
-                <input id="language" type="text" className="input-control" name="language" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='english' className='label-control'>English : </label>
-                <input id="english" type="text" className="input-control" name="english" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='maths' className='label-control'>Maths : </label>
-                <input id="matha" type="text" className="input-control" name="maths" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='science' className='label-control'>Science : </label>
-                <input id="science" type="text" className="input-control" name="science" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='social science' className='label-control'>Social science : </label>
-                <input id="social science" type="text" className="input-control" name="social science" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='total marks' className='label-control'>Total Marks : </label>
-                <input id="total marks" type="text" className="input-control" name="total marks" onChange={this.inputChangeHandler}></input><br /><br />
-                <label htmlFor='percentage of mark' className='label-control'>Percentage of Mark : </label>
-                <input id="percentage of mark" type="text" className="input-control" name="percentage of mark" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='language' className='label-control'>Language : </label><br />
+                <input id="language" type="number" className="input-control" name="language" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='english' className='label-control'>English : </label><br />
+                <input id="english" type="number" className="input-control" name="english" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='maths' className='label-control'>Maths : </label><br />
+                <input id="matha" type="number" className="input-control" name="maths" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='science' className='label-control'>Science : </label><br />
+                <input id="science" type="number" className="input-control" name="science" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='social science' className='label-control'>Social science : </label><br />
+                <input id="social science" type="number" className="input-control" name="social science" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='total marks' className='label-control'>Total Marks : </label><br />
+                <input id="total marks" type="number" className="input-control" name="total marks" onChange={this.inputChangeHandler}></input><br /><br />
+                <label htmlFor='percentage of mark' className='label-control'>Percentage of Mark : </label><br />
+                <input id="percentage of mark" type="number" className="input-control" name="percentage of mark" onChange={this.inputChangeHandler}></input><br /><br />
                 </div>
               </div>
              </div>

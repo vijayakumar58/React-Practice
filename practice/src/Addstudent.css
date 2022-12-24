@@ -19,6 +19,7 @@
   padding: 10px 15px;
   display: inline-block;
   border: 1px solid #ccc;
+  background-color: wheat;
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 0.9rem;
@@ -39,5 +40,6 @@
 }
 
 .student-info {
-  color: #808080;
+  color: darkmagenta;
+  font-size: 22px;
 }
