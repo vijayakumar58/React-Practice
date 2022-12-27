@@ -5,6 +5,7 @@ export class MainPage extends Component {
     render (){
        return(
         <div className='mainpage-container'>
+            <h2>hello student</h2>
             {/* <div className='row'>
                 <div className='col-sm-3'>
                     
